@@ -1,0 +1,31 @@
+<footer class="p-2">
+  <div class="container py-4 px-xxl-5">
+    <div class="row justify-content-center">
+
+      <div class="col-6 col-md-5 col-lg-4 mb-4">
+        <ul class="nav flex-column">
+          <li class="nav-item"><a href="./index.html#about" class="nav-link text-white">SOTMJについて</a></li>
+          <li class="nav-item"><a href="./index.html#news" class="nav-link text-white">お知らせ</a></li>
+          <li class="nav-item"><a href="./index.html#event-outline" class="nav-link text-white">開催概要</a></li>
+          <li class="nav-item"><a href="./index.html#sponser" class="nav-link text-white">スポンサー</a></li>
+          <li class="nav-item"><a href="./index.html#timetable" class="nav-link text-white">タイムテーブル</a></li>
+          <li class="nav-item"><a href="https://peatix.com/event/4205624" class="nav-link text-white">参加登録</a></li>
+          <li class="nav-item"><a href="./coc.html" class="nav-link text-white">行動規範</a></li>
+        </ul>
+      </div>
+
+      <div class="col-6 col-md-5 col-lg-4 mb-4">
+        <ul class="nav flex-column">
+        {% for network in site.social %}
+        <li class="nav-item"><a href="{{ network.url }}" class="nav-link text-white text-capitalize"><i class="bi-{{ network.icon }}"></i> {{ network.title }}</a></li>
+        {% endfor %}
+      </div>
+
+      <div class="text-center col-6 col-md-4 col-lg-3 mb-4">
+        <img src="./img/sotmjapan-logo.webp" alt="" width="50%">
+      </div>
+
+    </div>
+  </div>
+  <p class="m-0 p-0 text-end text-white" style="font-size: 9pt;"><small>Cover image ススキノ Creative Commons License <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.ja" class="text-white">表示-継承 4.0 国際(CC BY-SA 4.0)</a></small></p>
+</footer>
