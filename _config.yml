@@ -27,6 +27,8 @@ event:
     - name: 一般社団法人 OpenStreetMap Foundation Japan
       url: https://www.osmf.jp/
   support:
+    - name: 一般社団法人OSGeo日本支部(OSGeo.JP)
+      url: https://www.osgeo.jp/
 
 social:
   - title: State of the Map Japan
