@@ -5,8 +5,9 @@ layout: home
 
 {% include about.html %}
 {% include news.html %}
-{% comment %}
 {% include cfp.html %}
+{% include cfs.html %}
+{% comment %}
 {% include pre-event.html %}
 {% endcomment %}
 {% include outline.html %}
