@@ -8,7 +8,7 @@ event:
   title: State of the Map Japan 2025
   date: 2025年12月6日
   dayofweek: 土曜日
-  time: 13:00 - 18:00
+  time: 11:00 - 18:00
   venue: 大阪大学中之島センター
   zip: 530-0005
   address: 大阪市北区中之島4-3-53
@@ -33,6 +33,8 @@ event:
       url: https://ospn.jp/
     - name: 一般社団法人コード・フォー・ジャパン
       url: https://www.code4japan.org/
+    - name: アカデミック・リソース・ガイド(arg)
+      url: https://arg-corp.jp/
 
 social:
   - title: State of the Map Japan
