@@ -16,6 +16,6 @@ layout: home
 {% include speaker.html %}
 {% include youtube.html %}
 {% endcomment %}
-{% include sponser.html %}
+{% include sponsor.html %}
 {% include committee.html %}
 {% include map.html %}
