@@ -13,8 +13,8 @@ layout: home
 {% include pre-event.html %}
 {% endcomment %}
 {% include outline.html %}
-{% comment %}
 {% include timetable.html %}
+{% comment %}
 {% include speaker.html %}
 {% include youtube.html %}
 {% endcomment %}

@@ -22,6 +22,8 @@ event:
   host:
     - name: State of the Map Japan 2025 実行委員会
       url: https://stateofthemap.jp/2025/
+    - name: 大阪大学SSI/いのち会議
+      url: https://www.ssi.osaka-u.ac.jp/
   chairman: 
   cohost:
     - name: 一般社団法人 OpenStreetMap Foundation Japan
