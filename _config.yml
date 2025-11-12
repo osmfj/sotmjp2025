@@ -37,6 +37,8 @@ event:
       url: https://www.code4japan.org/
     - name: アカデミック・リソース・ガイド(arg)
       url: https://arg-corp.jp/
+    - name: 一般社団法人地理情報システム学会
+      url: https://www.gisa-japan.org/
 
 social:
   - title: State of the Map Japan
