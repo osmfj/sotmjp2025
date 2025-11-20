@@ -17,7 +17,7 @@ layout: home
 {% comment %}
 {% include speaker.html %}
 {% include youtube.html %}
-{% endcomment %}
 {% include sponsor.html %}
+{% endcomment %}
 {% include committee.html %}
 {% include map.html %}
