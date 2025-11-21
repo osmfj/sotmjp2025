@@ -8,8 +8,8 @@ layout: home
 {% comment %}
 {% include cfp.html %}
 {% endcomment %}
-{% include cfs.html %}
 {% comment %}
+{% include cfs.html %}
 {% include pre-event.html %}
 {% endcomment %}
 {% include outline.html %}
@@ -17,7 +17,7 @@ layout: home
 {% comment %}
 {% include speaker.html %}
 {% include youtube.html %}
-{% include sponsor.html %}
 {% endcomment %}
+{% include sponsor.html %}
 {% include committee.html %}
 {% include map.html %}
