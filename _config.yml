@@ -39,6 +39,9 @@ event:
       url: https://arg-corp.jp/
     - name: 一般社団法人地理情報システム学会
       url: https://www.gisa-japan.org/
+  cooperation:
+    - name: Code for OSAKA
+      url: https://code4.osaka/
 
 social:
   - title: State of the Map Japan

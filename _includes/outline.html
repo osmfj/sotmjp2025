@@ -56,6 +56,19 @@
                         {% endfor %}
                       </ul>
                     </li>
+                    <li>協力
+                      <ul>
+                        {% for cooperation in site.event["cooperation"] %}
+                        <li>
+                          {% if cooperation.url %}
+                            <a href="{{ cooperation.url }}">{{ cooperation.name }}</a>
+                          {% else %}
+                            {{ cooperation.name }}
+                          {% endif %}
+                        </li>
+                        {% endfor %}
+                      </ul>
+                    </li>
                   </ul>
 
                 </div>
