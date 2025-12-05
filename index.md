@@ -16,8 +16,8 @@ layout: home
 {% include timetable.html %}
 {% comment %}
 {% include speaker.html %}
-{% include youtube.html %}
 {% endcomment %}
+{% include youtube.html %}
 {% include sponsor.html %}
 {% include committee.html %}
 {% include map.html %}
